@@ -1,0 +1,38 @@
+body {
+  background: rgb(193, 228, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 228, 156, 1) 0%,
+    rgba(100, 179, 244, 1) 100%
+  );
+}
+
+.absolute {
+  position: absolute;
+}
+
+.round {
+  border-radius: 2%;
+}
+
+label {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+}
+
+.colgambar {
+  background: linear-gradient(rgba(85, 87, 87, 0.582), rgba(85, 87, 87, 0.582)),
+    url(https://image.freepik.com/free-vector/people-making-list-illustration_53876-43029.jpg);
+
+  background-position: center;
+}
+
+.bg-opacity {
+  background-color: rgba(255, 255, 255, 0.663);
+}
+
+@media screen and (max-width: 980px) {
+  .colhidden {
+    display: none;
+  }
+}

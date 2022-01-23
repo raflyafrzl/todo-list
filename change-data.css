@@ -1,0 +1,45 @@
+body {
+  background-color: #7abfe7;
+  overflow: hidden;
+}
+
+.svgclass {
+  transform: rotate(-60deg) scale(4.8) translate(85px, 79px);
+  position: relative;
+
+  width: 530px;
+}
+.overflow-h {
+  background-color: rgba(15, 29, 92, 0.384);
+}
+
+.bg-sendiri {
+  background-color: rgba(255, 255, 255, 0.377);
+}
+.text-fira {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.text-arc {
+  font-family: "Architects Daughter", cursive;
+  text-align: justify;
+}
+
+.text-mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.jos {
+  position: absolute;
+  z-index: -999;
+  bottom: -40px;
+}
+
+@media (max-width: 770px) {
+  .bagan {
+    display: none;
+  }
+  .jos {
+    display: none;
+  }
+}
